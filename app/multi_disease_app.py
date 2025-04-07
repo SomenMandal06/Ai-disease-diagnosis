@@ -1,7 +1,9 @@
 # app/multi_disease_app.py
 import streamlit as st
-from app.diabetes_utils import predict_diabetes
-from app.heart_utils import predict_heart_disease
+from diabetes_utils import predict_diabetes
+from heart_utils import predict_heart
+
+
 
 st.set_page_config(page_title="Multi-Disease AI Health App", layout="wide")
 st.title("🧠 AI Health Assistant")
